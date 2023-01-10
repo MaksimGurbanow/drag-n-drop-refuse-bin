@@ -59,17 +59,43 @@ body {
   background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
 }
 
-.done {
+.delete {
   background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
 }
 
 .hold{
-  background-color: black;
+  background-color: #333;
+}
+.released{
+  background-color: red;
 }
 .hide{
   display: none;
 }
 
 .hovered{
-  border-top: 2px solid blueviolet;
+  border-top: 2px solid powderblue;
+}
+
+.deleter{
+  background-image: url("http://s1.iconbird.com/ico/0512/FlatforLinux/w128h1281337520846126200263424EmptyTrash.png");
+  background-repeat: no-repeat;
+  height: 125px;
+}
+.deleter-done{
+  background-image: url("http://s1.iconbird.com/ico/0512/FlatforLinux/w128h1281337520846126200262123FullTrash.png");
+  background-repeat: no-repeat;
+  height: 125px;
+}
+.ItemDeleted{
+  display: none;
+}
+.hint{
+  position:absolute;  
+  top: 70%;
+  left: 60%;
+  overflow:hidden;
+}
+.hidden{
+  display:none;
 }
